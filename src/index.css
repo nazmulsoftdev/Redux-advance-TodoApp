@@ -1,0 +1,81 @@
+body {
+    background-color: black
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.TodoToggle {
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    text-align: center;
+    border: 3px dotted rgb(250, 254, 250);
+    border-radius: 50%;
+    font-size: small;
+    cursor: pointer;
+    color: beige;
+}
+
+
+/* color select */
+
+.YellowColorBox {
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    border-radius: 50%;
+    border: 1px solid yellow;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+}
+
+.YellowColorBox .child {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+
+.GreenColorBox {
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    border-radius: 50%;
+    border: 1px solid green;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+}
+
+.GreenColorBox .child {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+
+.RedColorBox {
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    border-radius: 50%;
+    border: 1px solid red;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+}
+
+.RedColorBox .child {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+}
